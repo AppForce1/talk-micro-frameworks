@@ -1,0 +1,19 @@
+digraph {
+Application;
+µSearch;
+µHome;
+µProfile;
+µFeatures;
+µCore;
+µUI;
+µTesting;
+Application -> µSearch;
+Application -> µHome;
+Application -> µProfile;
+µSearch -> µFeatures;
+µHome -> µFeatures;
+µProfile -> µFeatures;
+µFeatures -> µCore;
+µFeatures -> µUI;
+µFeatures -> µTesting;
+}
